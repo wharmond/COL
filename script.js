@@ -27,5 +27,5 @@ function getCity() {
   for (var item of items) {
     str += "<option>" + item + "</option>";
   }
-  document.getElementById("pickone").innerHTML = str;
+  document.getElementById("city").innerHTML = str;
 }
