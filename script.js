@@ -21,11 +21,11 @@ function getCity() {
   if (x === "uk") {
     items = ["London", "Leeds", "Glasgow"];
   } else {
-    items = ["New York City", "Ottawa", "Singapore"]
+    items = ["New York City", "Ottawa", "Singapore"];
   }
-  var str = ""
+  var str = "";
   for (var item of items) {
-    str += "<option>" + item + "</option>"
+    str += "<option>" + item + "</option>";
   }
   document.getElementById("pickone").innerHTML = str;
 }
