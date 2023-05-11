@@ -29,4 +29,4 @@ function getCity() {
   }
   document.getElementById("pickone").innerHTML = str;
 }
-document.getElementById("country").addEventListener("onchange", getType)
+document.getElementById("country").addEventListener("onselect", getType)
